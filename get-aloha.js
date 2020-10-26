@@ -23,6 +23,18 @@ const getAloha = function(language){
             return null;
     }
 }
+/*
+const getAloha = function(language) {
+    if(language === undefined){
+        return null
+    }
+    if(language.toLowerCase() in db === false; {
+        return null;
+    }
+    return db[language.toLowerCase()]
+}
+
+*/
 
 
 // Our code here.
